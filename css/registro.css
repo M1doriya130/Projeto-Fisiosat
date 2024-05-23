@@ -1,0 +1,11 @@
+body {
+    font-family: sans-serif, Arial, Helvetica;
+    background-image: url(../source/registro.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+p, a {
+    color: white;
+}

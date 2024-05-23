@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif, Arial, Helvetica;
+    background-image: url(../source/backgroundCadastro.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.camposCadastro {
+    position: absolute;
+    top: 23%;
+    left: 18%;
+    padding: 0;
+    border-radius: 15px;
+    color: #0097B2;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+input {
+    padding: 15px 36px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.btCadastro {
+    background-color: dodgerblue;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btCadastro:hover {
+    background-color: deepskyblue;
+}

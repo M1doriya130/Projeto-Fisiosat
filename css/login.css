@@ -1,0 +1,78 @@
+/* Estilo global para o corpo */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+/* Configurando a imagem de fundo */
+body {
+    background-image: url('../source/backgroundLogin.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Ajustando a interface de login */
+.loginInterface {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.loginInterface .camposLogin {
+    position: fixed;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 15px;
+    color: #0097B2;
+    max-width: 400px;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+}
+
+.loginInterface img {
+    display: none; /* Esconde a imagem original */
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: calc(100% - 20px); /* Ajuste para evitar overflow */
+    padding: 15px 10px; /* Ajuste do padding para inputs */
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.btEntrar {
+    background-color: dodgerblue;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btEntrar:hover {
+    background-color: deepskyblue;
+}
+
+a {
+    color: #0097B2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

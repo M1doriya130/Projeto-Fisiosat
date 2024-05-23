@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisiosat-Cadastro</title>
+    <link rel="stylesheet" href="./css/cadastro.css">
+
+</head>
+
+<body>
+
+    <div class="camposCadastro">
+        <h1>Cadastro Profissionais</h1>
+        <form action="cadastroProfissionais.php" method="POST">
+        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+        <br><br>   
+            <select name="id" id="id">
+            <option>--Selecione sua especialidade--</option>
+            <option value="1">Fisioterapia</option>
+            <option value="2">Acupuntura</option>
+            <option value="3">Psicologia</option>
+            <option value="4">Quiropraxia</option>
+            </select>
+        <br><br>
+        <button type="submit" name="btCadastro" class="btCadastro">Cadastrar</button>
+        <br><br>
+        </form>
+    </div>
+
+</body>
+
+</html>

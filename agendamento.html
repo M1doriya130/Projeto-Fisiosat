@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="./css/agendamento.css">
+</head>
+<body>
+  
+    <div class="menu">
+        <ul class="opcoesMenu">
+            <li><a href="inicial.html">Página inicial</a></li>
+            <li><a href="agendamento.html">Agendamento</a></li>
+            <li><a href="#">Minha conta</a></li>
+            <li><a href="sobreNos.html">Sobre nós</a></li>
+            <li><a href="login.html">Sair</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>Qual especialidade você precisa ?</h1>
+        <form method="post" action="profissionais.php">     
+            <select name="especialidade" id="especialidade">
+                <option value="Escolha">--Escolha uma opção--</option>
+                <option value="1">Fisioterapia</option>
+                <option value="2">Acupuntura</option>
+                <option value="3">Psicologia</option>
+                <option value="4">Quiropraxia</option>
+            </select>
+            <input type="submit" value="Avançar"></input>
+        </form>
+    </div>
+
+</body>
+</html>

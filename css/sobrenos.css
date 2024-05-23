@@ -1,0 +1,150 @@
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    font-size: 20px;
+}
+
+ul {
+    text-decoration: none;
+    display: flex;
+}
+
+li {
+    padding: 28px;
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+
+.contactUs {
+    position: relative;
+    width: 100%;
+    background-color: #15A0B8;
+    font-size: 12px;
+    
+}
+
+.contactUs .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.contactUs .title h2{
+    color: #FFF;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+.contact{
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+
+.box{
+    left: 16%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas: 
+    "form info"
+    "form map";
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.contact h3{
+    color: #0e3959;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.formBox{
+    position: relative;
+    width: 100%;
+
+}
+
+.formBox .row50{
+    display:flex;
+    gap:20px;
+}
+
+.inputBox{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.formBox .row50 .inputBox{
+    width:100%;
+
+}
+.inputBox span{
+color: #0e3959;
+margin-top: 10px;
+margin-bottom: 5px;
+font-size: 20px;
+
+}
+
+.inputBox input{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+}
+
+textarea{
+    padding: 10px;
+    outline: none;
+    resize: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    
+}
+
+button{
+    background: #15A0B8;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    
+}
+
+
